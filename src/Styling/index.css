@@ -32,6 +32,12 @@ body {
   margin-top: 20px;
   color: whitesmoke;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-bar .blog-link {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 button {
@@ -111,6 +117,15 @@ button:hover {
   display: block;
   margin: 0 auto;
 }
+
+.blog-details .blog-image-message {
+  color: red;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
 .blog-title {
   font-size: clamp(2rem, 5vw, 3.5rem);
   color: rgb(58, 55, 55);

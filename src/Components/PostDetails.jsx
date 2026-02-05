@@ -25,6 +25,9 @@ function PostDetail() {
           className="blog-image"
         />
       </div>
+      <div>
+        <p className="blog-image-message">{post.image}</p>
+      </div>
       <p className="blog-content">{post.content}</p>
     </div>
   );

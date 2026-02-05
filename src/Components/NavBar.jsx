@@ -4,7 +4,9 @@ function Header() {
   return (
     <>
       <nav className="nav-bar">
-        <h2 className="blog-title">Tosin's Blog</h2>
+        <Link to="/" className="blog-link">
+          <h2 className="blog-title">Tosin's Blog</h2>
+        </Link>
       </nav>
     </>
   );
