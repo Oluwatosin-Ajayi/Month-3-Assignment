@@ -11,9 +11,9 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
         <ErrorBoundary>
           <Suspense fallback={<p>Loading...</p>}>
+            <Header />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/posts/:id" element={<PostDetail />} />
